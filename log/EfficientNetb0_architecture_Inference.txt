@@ -1,0 +1,56 @@
+Model EfficientNetb0_architecture Inference Initiated at 2022-06-28 17-17-32
+
+2_0039_M_17_ASD_R is ASD and predicted as ADHD with confidence 34.97% | CORRECT : False | confusion : TN
+2_0089_M_14_ASD_L is ASD and predicted as ASD with confidence 55.20% | CORRECT : True  | confusion : FP
+1_0041_M_09_ASD_L is ASD and predicted as ASD with confidence 81.28% | CORRECT : True  | confusion : FP
+1_0068_M_07_ASD_L is ASD and predicted as ASD with confidence 75.28% | CORRECT : True  | confusion : FP
+1_0090_M_06_ASD_R is ASD and predicted as ASD with confidence 100.00% | CORRECT : True  | confusion : FP
+1_0053_M_07_ASD_L is ASD and predicted as ASD with confidence 86.92% | CORRECT : True  | confusion : FP
+1_0025_M_06_ASD_R is ASD and predicted as ASD with confidence 77.43% | CORRECT : True  | confusion : FP
+1_0018_M_12_ASD_R is ASD and predicted as ASD with confidence 50.35% | CORRECT : True  | confusion : FP
+1_0006_F_06_ASD_L is ASD and predicted as ADHD with confidence 30.14% | CORRECT : False | confusion : TN
+1_0007_M_07_ASD_L is ASD and predicted as ASD with confidence 72.53% | CORRECT : True  | confusion : FP
+1_0036_M_11_ASD_R is ASD and predicted as ASD with confidence 81.04% | CORRECT : True  | confusion : FP
+1_0069_M_09_ASD_L is ASD and predicted as ASD with confidence 86.44% | CORRECT : True  | confusion : FP
+1_0021_M_05_ASD_R is ASD and predicted as ASD with confidence 78.90% | CORRECT : True  | confusion : FP
+1_0016_F_09_ASD_L is ASD and predicted as ADHD with confidence 47.46% | CORRECT : False | confusion : TN
+1_0065_M_11_ASD_R is ASD and predicted as ASD with confidence 83.53% | CORRECT : True  | confusion : FP
+2_0095_M_5_ASD_R is ASD and predicted as ADHD with confidence 26.28% | CORRECT : False | confusion : TN
+2_0086_M_11_ASD_R is ASD and predicted as ADHD with confidence 25.96% | CORRECT : False | confusion : TN
+1_0064_M_04_ASD_R is ASD and predicted as ASD with confidence 79.66% | CORRECT : True  | confusion : FP
+2_0070_F_12_ASD_L is ASD and predicted as ADHD with confidence 33.56% | CORRECT : False | confusion : TN
+1_0081_F_05_ASD_L is ASD and predicted as ASD with confidence 87.05% | CORRECT : True  | confusion : FP
+2_0022_M_11_ADHD_R is ADHD and predicted as ASD with confidence 24.71% | CORRECT : False  | confusion : FN
+2_0032_M_8_ADHD_R is ADHD and predicted as ADHD with confidence 62.29% | CORRECT : True  | confusion : TP
+2_0081_M_18_ADHD_R is ADHD and predicted as ADHD with confidence 55.45% | CORRECT : True  | confusion : TP
+2_0101_M_9_ADHD_L is ADHD and predicted as ADHD with confidence 61.03% | CORRECT : True  | confusion : TP
+2_0093_M_9_ADHD_R is ADHD and predicted as ADHD with confidence 64.18% | CORRECT : True  | confusion : TP
+2_0006_F_10_ADHD_R is ADHD and predicted as ASD with confidence 14.39% | CORRECT : False  | confusion : FN
+2_0101_M_9_ADHD_R is ADHD and predicted as ADHD with confidence 66.00% | CORRECT : True  | confusion : TP
+2_0007_F_9_ADHD_R is ADHD and predicted as ASD with confidence 12.15% | CORRECT : False  | confusion : FN
+2_0015_M_6_ADHD_R is ADHD and predicted as ASD with confidence 21.38% | CORRECT : False  | confusion : FN
+2_0008_M_8_ADHD_R is ADHD and predicted as ASD with confidence 21.93% | CORRECT : False  | confusion : FN
+2_0048_M_6_ADHD_L is ADHD and predicted as ASD with confidence 24.80% | CORRECT : False  | confusion : FN
+2_0072_F_6_ADHD_L is ADHD and predicted as ADHD with confidence 66.07% | CORRECT : True  | confusion : TP
+2_0016_M_12_ADHD_L is ADHD and predicted as ADHD with confidence 67.03% | CORRECT : True  | confusion : TP
+2_0045_M_14_ADHD_L is ADHD and predicted as ADHD with confidence 54.26% | CORRECT : True  | confusion : TP
+2_0079_F_18_ADHD_R is ADHD and predicted as ADHD with confidence 65.63% | CORRECT : True  | confusion : TP
+2_0021_M_10_ADHD_R is ADHD and predicted as ASD with confidence 13.66% | CORRECT : False  | confusion : FN
+1_0002_F_07_ADHD_R is ADHD and predicted as ASD with confidence 14.41% | CORRECT : False  | confusion : FN
+1_0010_M_06_ADHD_L is ADHD and predicted as ASD with confidence 19.76% | CORRECT : False  | confusion : FN
+2_0055_F_16_ADHD_R is ADHD and predicted as ADHD with confidence 67.11% | CORRECT : True  | confusion : TP
+2_0059_M_9_ADHD_R is ADHD and predicted as ADHD with confidence 71.37% | CORRECT : True  | confusion : TP
+2_0096_F_13_ADHD_R is ADHD and predicted as ADHD with confidence 66.67% | CORRECT : True  | confusion : TP
+
+
+Total Inference
+Accuracy  SCORE : 63.41%
+ROC-AUC   SCORE : 59.76%
+Precision SCORE : 66.67%
+Recall    SCORE : 57.14%
+F1        SCORE : 61.54%
+Confusion Matrix : 
+[[14  6]
+ [ 9 12]]
+
+Model EfficientNetb0_architecture Inference Finished at 2022-06-28 17-17-32

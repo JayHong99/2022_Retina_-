@@ -1,0 +1,483 @@
+Model Training Initiated at 2022-06-29 15-33-42
+Mean of Images : 37.5883
+Std  of Images : 44.3656
+Model Configure
+    ============
+    Modeling  Batch Size       :  256
+    Modeling  Total Epochs     :  500
+    Modeling  Device           :  cuda:0
+    Modeling  Learning Rate    :  0.01
+    Modeling  Criterion        :  CrossEntropyLoss()
+    Modeling  Save Path        :  result/Compare_Models
+    EalryStop Milestones       :  [20, 30]
+    EarlyStop Gamma            :  0.1
+    EarlyStop Patience         :  10
+    EarlyStop Delta            :  0.001
+    
+MODEL : VGG19_architecture
+	EPOCH : 0	TRAIN LOSS : [0.80070]    ACC : [0.50160]    ROC : [0.48214]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (inf --> 0.826082).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [0.85955]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 2	TRAIN LOSS : [0.77773]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 3	TRAIN LOSS : [0.83228]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 4	TRAIN LOSS : [0.85274]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 5	TRAIN LOSS : [0.86637]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 6	TRAIN LOSS : [0.83910]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 7	TRAIN LOSS : [0.88683]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 8	TRAIN LOSS : [0.81182]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 9	TRAIN LOSS : [0.81864]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 10	TRAIN LOSS : [0.84592]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [10]==
+
+MODEL : VGG19_pretrained
+	EPOCH : 0	TRAIN LOSS : [0.70485]    ACC : [0.57188]    ROC : [0.60394]
+				VALID LOSS : [0.80044]    ACC : [0.51282]    ROC : [0.50000]
+				Validation loss decreased (inf --> 0.800441).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [0.71042]    ACC : [0.67412]    ROC : [0.67052]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 2	TRAIN LOSS : [0.81182]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 3	TRAIN LOSS : [0.83228]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 4	TRAIN LOSS : [0.81182]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 5	TRAIN LOSS : [0.81864]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 6	TRAIN LOSS : [0.81864]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 7	TRAIN LOSS : [0.82546]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 8	TRAIN LOSS : [0.83228]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 9	TRAIN LOSS : [0.80500]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 10	TRAIN LOSS : [0.82546]    ACC : [0.48562]    ROC : [0.50000]
+				VALID LOSS : [0.82608]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [10]==
+
+MODEL : ResNet50_architecture
+	EPOCH : 0	TRAIN LOSS : [11.20058]    ACC : [0.50479]    ROC : [0.36082]
+				VALID LOSS : [4209878499328.0]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (inf --> 4209878499328.000000).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [3.94125]    ACC : [0.52716]    ROC : [0.53757]
+				VALID LOSS : [815465431040.0]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (4209878499328.000000 --> 815465431040.000000).  Saving model ...
+	EPOCH : 2	TRAIN LOSS : [4.18113]    ACC : [0.51438]    ROC : [0.67017]
+				VALID LOSS : [3235238144.0]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (815465431040.000000 --> 3235238144.000000).  Saving model ...
+	EPOCH : 3	TRAIN LOSS : [2.65188]    ACC : [0.51438]    ROC : [0.74785]
+				VALID LOSS : [1007817344.0]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (3235238144.000000 --> 1007817344.000000).  Saving model ...
+	EPOCH : 4	TRAIN LOSS : [1.06888]    ACC : [0.50479]    ROC : [0.27885]
+				VALID LOSS : [120471056.0]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (1007817344.000000 --> 120471056.000000).  Saving model ...
+	EPOCH : 5	TRAIN LOSS : [1.74617]    ACC : [0.48562]    ROC : [0.30617]
+				VALID LOSS : [6989061.0]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (120471056.000000 --> 6989061.000000).  Saving model ...
+	EPOCH : 6	TRAIN LOSS : [0.86631]    ACC : [0.47604]    ROC : [0.29199]
+				VALID LOSS : [420402.9375]    ACC : [0.51282]    ROC : [0.50000]
+				Validation loss decreased (6989061.000000 --> 420402.937500).  Saving model ...
+	EPOCH : 7	TRAIN LOSS : [1.03721]    ACC : [0.51438]    ROC : [0.71839]
+				VALID LOSS : [138778.0]    ACC : [0.51282]    ROC : [0.50000]
+				Validation loss decreased (420402.937500 --> 138778.000000).  Saving model ...
+	EPOCH : 8	TRAIN LOSS : [0.99054]    ACC : [0.51438]    ROC : [0.71964]
+				VALID LOSS : [12409.80273]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (138778.000000 --> 12409.802734).  Saving model ...
+	EPOCH : 9	TRAIN LOSS : [0.82028]    ACC : [0.48562]    ROC : [0.28226]
+				VALID LOSS : [13514.27734]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 10	TRAIN LOSS : [0.96077]    ACC : [0.48562]    ROC : [0.32290]
+				VALID LOSS : [1450.60474]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (12409.802734 --> 1450.604736).  Saving model ...
+	EPOCH : 11	TRAIN LOSS : [0.88320]    ACC : [0.48562]    ROC : [0.29033]
+				VALID LOSS : [193.62683]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (1450.604736 --> 193.626831).  Saving model ...
+	EPOCH : 12	TRAIN LOSS : [0.84476]    ACC : [0.48562]    ROC : [0.33044]
+				VALID LOSS : [26.00029]    ACC : [0.48718]    ROC : [0.08421]
+				Validation loss decreased (193.626831 --> 26.000290).  Saving model ...
+	EPOCH : 13	TRAIN LOSS : [0.74455]    ACC : [0.48562]    ROC : [0.30271]
+				VALID LOSS : [2.91998]    ACC : [0.48718]    ROC : [0.08421]
+				Validation loss decreased (26.000290 --> 2.919977).  Saving model ...
+	EPOCH : 14	TRAIN LOSS : [0.69936]    ACC : [0.48562]    ROC : [0.31765]
+				VALID LOSS : [0.69375]    ACC : [0.35897]    ROC : [0.08158]
+				Validation loss decreased (2.919977 --> 0.693753).  Saving model ...
+	EPOCH : 15	TRAIN LOSS : [0.69546]    ACC : [0.51438]    ROC : [0.42837]
+				VALID LOSS : [0.69443]    ACC : [0.51282]    ROC : [0.07632]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 16	TRAIN LOSS : [0.69922]    ACC : [0.51438]    ROC : [0.47973]
+				VALID LOSS : [0.69550]    ACC : [0.51282]    ROC : [0.08158]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 17	TRAIN LOSS : [0.69599]    ACC : [0.51438]    ROC : [0.57137]
+				VALID LOSS : [0.69625]    ACC : [0.51282]    ROC : [0.07632]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 18	TRAIN LOSS : [0.68272]    ACC : [0.51438]    ROC : [0.66658]
+				VALID LOSS : [0.69681]    ACC : [0.51282]    ROC : [0.07895]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 19	TRAIN LOSS : [0.70202]    ACC : [0.51438]    ROC : [0.62676]
+				VALID LOSS : [0.69727]    ACC : [0.51282]    ROC : [0.08684]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 20	TRAIN LOSS : [0.69415]    ACC : [0.51438]    ROC : [0.67310]
+				VALID LOSS : [0.69743]    ACC : [0.51282]    ROC : [0.35395]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 21	TRAIN LOSS : [0.69927]    ACC : [0.51438]    ROC : [0.65550]
+				VALID LOSS : [0.69740]    ACC : [0.51282]    ROC : [0.23289]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 22	TRAIN LOSS : [0.69424]    ACC : [0.51438]    ROC : [0.66658]
+				VALID LOSS : [0.69719]    ACC : [0.51282]    ROC : [0.05789]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 23	TRAIN LOSS : [0.69733]    ACC : [0.51438]    ROC : [0.66460]
+				VALID LOSS : [0.69688]    ACC : [0.51282]    ROC : [0.07237]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 24	TRAIN LOSS : [0.70642]    ACC : [0.51438]    ROC : [0.69334]
+				VALID LOSS : [0.69642]    ACC : [0.51282]    ROC : [0.08158]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [24]==
+
+MODEL : ResNet50_pretrained
+	EPOCH : 0	TRAIN LOSS : [0.84805]    ACC : [0.53035]    ROC : [0.54389]
+				VALID LOSS : [1.13542]    ACC : [0.48718]    ROC : [0.11316]
+				Validation loss decreased (inf --> 1.135417).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [2.90999]    ACC : [0.50479]    ROC : [0.78494]
+				VALID LOSS : [1.59723]    ACC : [0.51282]    ROC : [0.86579]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 2	TRAIN LOSS : [1.92533]    ACC : [0.56869]    ROC : [0.83745]
+				VALID LOSS : [2.35907]    ACC : [0.51282]    ROC : [0.85000]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 3	TRAIN LOSS : [1.36939]    ACC : [0.67093]    ROC : [0.82633]
+				VALID LOSS : [0.73139]    ACC : [0.51282]    ROC : [0.77105]
+				Validation loss decreased (1.135417 --> 0.731392).  Saving model ...
+	EPOCH : 4	TRAIN LOSS : [1.76391]    ACC : [0.69329]    ROC : [0.82560]
+				VALID LOSS : [0.74863]    ACC : [0.51282]    ROC : [0.68421]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 5	TRAIN LOSS : [1.09940]    ACC : [0.76677]    ROC : [0.81763]
+				VALID LOSS : [2.10312]    ACC : [0.51282]    ROC : [0.57895]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 6	TRAIN LOSS : [0.78854]    ACC : [0.77955]    ROC : [0.84460]
+				VALID LOSS : [2.53510]    ACC : [0.51282]    ROC : [0.25789]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 7	TRAIN LOSS : [1.15024]    ACC : [0.75399]    ROC : [0.85541]
+				VALID LOSS : [1.82416]    ACC : [0.51282]    ROC : [0.25263]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 8	TRAIN LOSS : [0.88324]    ACC : [0.78594]    ROC : [0.86000]
+				VALID LOSS : [0.81217]    ACC : [0.51282]    ROC : [0.20263]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 9	TRAIN LOSS : [0.95284]    ACC : [0.76997]    ROC : [0.86413]
+				VALID LOSS : [0.77063]    ACC : [0.38462]    ROC : [0.22368]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 10	TRAIN LOSS : [0.74485]    ACC : [0.76677]    ROC : [0.87292]
+				VALID LOSS : [0.82134]    ACC : [0.48718]    ROC : [0.17368]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 11	TRAIN LOSS : [0.76685]    ACC : [0.78594]    ROC : [0.87394]
+				VALID LOSS : [1.05669]    ACC : [0.51282]    ROC : [0.16842]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 12	TRAIN LOSS : [0.65970]    ACC : [0.80511]    ROC : [0.87398]
+				VALID LOSS : [1.15997]    ACC : [0.51282]    ROC : [0.22368]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 13	TRAIN LOSS : [0.74170]    ACC : [0.82428]    ROC : [0.87606]
+				VALID LOSS : [1.03933]    ACC : [0.51282]    ROC : [0.57632]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [13]==
+
+MODEL : ResNeXt50_architecture
+	EPOCH : 0	TRAIN LOSS : [10.28848]    ACC : [0.49521]    ROC : [0.68760]
+				VALID LOSS : [15546.14453]    ACC : [0.51282]    ROC : [0.50000]
+				Validation loss decreased (inf --> 15546.144531).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [5.16640]    ACC : [0.51438]    ROC : [0.54936]
+				VALID LOSS : [250036.17188]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 2	TRAIN LOSS : [4.71700]    ACC : [0.48562]    ROC : [0.33330]
+				VALID LOSS : [104105.0625]    ACC : [0.48718]    ROC : [0.50000]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 3	TRAIN LOSS : [4.38193]    ACC : [0.48562]    ROC : [0.51440]
+				VALID LOSS : [15380.18457]    ACC : [0.48718]    ROC : [0.50000]
+				Validation loss decreased (15546.144531 --> 15380.184570).  Saving model ...
+	EPOCH : 4	TRAIN LOSS : [1.52506]    ACC : [0.48562]    ROC : [0.41627]
+				VALID LOSS : [1281.02124]    ACC : [0.51282]    ROC : [0.50000]
+				Validation loss decreased (15380.184570 --> 1281.021240).  Saving model ...
+	EPOCH : 5	TRAIN LOSS : [1.43038]    ACC : [0.51438]    ROC : [0.69541]
+				VALID LOSS : [272.42703]    ACC : [0.51282]    ROC : [0.50000]
+				Validation loss decreased (1281.021240 --> 272.427032).  Saving model ...
+	EPOCH : 6	TRAIN LOSS : [1.56440]    ACC : [0.51438]    ROC : [0.72507]
+				VALID LOSS : [24.56179]    ACC : [0.51282]    ROC : [0.50000]
+				Validation loss decreased (272.427032 --> 24.561789).  Saving model ...
+	EPOCH : 7	TRAIN LOSS : [0.83808]    ACC : [0.51438]    ROC : [0.70615]
+				VALID LOSS : [5.35225]    ACC : [0.48718]    ROC : [0.10000]
+				Validation loss decreased (24.561789 --> 5.352255).  Saving model ...
+	EPOCH : 8	TRAIN LOSS : [1.02993]    ACC : [0.48562]    ROC : [0.67105]
+				VALID LOSS : [7.05014]    ACC : [0.48718]    ROC : [0.13158]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 9	TRAIN LOSS : [0.90895]    ACC : [0.48562]    ROC : [0.69720]
+				VALID LOSS : [0.89145]    ACC : [0.48718]    ROC : [0.17368]
+				Validation loss decreased (5.352255 --> 0.891453).  Saving model ...
+	EPOCH : 10	TRAIN LOSS : [0.69622]    ACC : [0.48562]    ROC : [0.70374]
+				VALID LOSS : [0.69332]    ACC : [0.51282]    ROC : [0.09211]
+				Validation loss decreased (0.891453 --> 0.693322).  Saving model ...
+	EPOCH : 11	TRAIN LOSS : [0.69582]    ACC : [0.45048]    ROC : [0.68433]
+				VALID LOSS : [0.69533]    ACC : [0.51282]    ROC : [0.33947]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 12	TRAIN LOSS : [0.68949]    ACC : [0.51438]    ROC : [0.72781]
+				VALID LOSS : [0.69624]    ACC : [0.51282]    ROC : [0.12368]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 13	TRAIN LOSS : [0.69723]    ACC : [0.51438]    ROC : [0.70231]
+				VALID LOSS : [0.69714]    ACC : [0.51282]    ROC : [0.09605]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 14	TRAIN LOSS : [0.68104]    ACC : [0.51438]    ROC : [0.80049]
+				VALID LOSS : [0.69766]    ACC : [0.51282]    ROC : [0.10000]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 15	TRAIN LOSS : [0.69898]    ACC : [0.51438]    ROC : [0.80946]
+				VALID LOSS : [0.69772]    ACC : [0.51282]    ROC : [0.08947]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 16	TRAIN LOSS : [0.69687]    ACC : [0.51438]    ROC : [0.80999]
+				VALID LOSS : [0.69771]    ACC : [0.51282]    ROC : [0.10263]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 17	TRAIN LOSS : [0.70860]    ACC : [0.51438]    ROC : [0.82229]
+				VALID LOSS : [0.69772]    ACC : [0.51282]    ROC : [0.09474]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 18	TRAIN LOSS : [0.69253]    ACC : [0.51438]    ROC : [0.78224]
+				VALID LOSS : [0.69765]    ACC : [0.51282]    ROC : [0.10000]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 19	TRAIN LOSS : [0.69597]    ACC : [0.51438]    ROC : [0.79299]
+				VALID LOSS : [0.69755]    ACC : [0.51282]    ROC : [0.09737]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 20	TRAIN LOSS : [0.68651]    ACC : [0.51438]    ROC : [0.75801]
+				VALID LOSS : [0.69740]    ACC : [0.51282]    ROC : [0.09737]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [20]==
+
+MODEL : ResNeXt50_pretrained
+	EPOCH : 0	TRAIN LOSS : [0.71173]    ACC : [0.63578]    ROC : [0.67383]
+				VALID LOSS : [1.69462]    ACC : [0.48718]    ROC : [0.18158]
+				Validation loss decreased (inf --> 1.694617).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [2.69094]    ACC : [0.49840]    ROC : [0.80042]
+				VALID LOSS : [3.12092]    ACC : [0.51282]    ROC : [0.32895]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 2	TRAIN LOSS : [2.65950]    ACC : [0.60383]    ROC : [0.83463]
+				VALID LOSS : [6.71711]    ACC : [0.51282]    ROC : [0.51053]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 3	TRAIN LOSS : [1.07791]    ACC : [0.68051]    ROC : [0.84378]
+				VALID LOSS : [0.64157]    ACC : [0.66667]    ROC : [0.70789]
+				Validation loss decreased (1.694617 --> 0.641566).  Saving model ...
+	EPOCH : 4	TRAIN LOSS : [1.70452]    ACC : [0.62939]    ROC : [0.85559]
+				VALID LOSS : [1.06196]    ACC : [0.51282]    ROC : [0.51842]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 5	TRAIN LOSS : [0.97125]    ACC : [0.69010]    ROC : [0.86033]
+				VALID LOSS : [8.25730]    ACC : [0.51282]    ROC : [0.19605]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 6	TRAIN LOSS : [1.13140]    ACC : [0.77316]    ROC : [0.87189]
+				VALID LOSS : [10.71276]    ACC : [0.51282]    ROC : [0.50000]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 7	TRAIN LOSS : [1.49107]    ACC : [0.69968]    ROC : [0.87361]
+				VALID LOSS : [7.19422]    ACC : [0.51282]    ROC : [0.37105]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 8	TRAIN LOSS : [1.01652]    ACC : [0.79872]    ROC : [0.86413]
+				VALID LOSS : [2.59141]    ACC : [0.51282]    ROC : [0.32895]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 9	TRAIN LOSS : [0.84957]    ACC : [0.77955]    ROC : [0.88481]
+				VALID LOSS : [1.69534]    ACC : [0.51282]    ROC : [0.39211]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 10	TRAIN LOSS : [0.71863]    ACC : [0.78275]    ROC : [0.89085]
+				VALID LOSS : [2.03589]    ACC : [0.51282]    ROC : [0.72632]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 11	TRAIN LOSS : [0.82563]    ACC : [0.78914]    ROC : [0.89196]
+				VALID LOSS : [2.75944]    ACC : [0.51282]    ROC : [0.84474]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 12	TRAIN LOSS : [0.77223]    ACC : [0.80831]    ROC : [0.89261]
+				VALID LOSS : [3.18828]    ACC : [0.51282]    ROC : [0.93421]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 13	TRAIN LOSS : [0.70655]    ACC : [0.82428]    ROC : [0.89384]
+				VALID LOSS : [3.70772]    ACC : [0.51282]    ROC : [0.94211]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [13]==
+
+MODEL : EfficientNetb0_architecture
+	EPOCH : 0	TRAIN LOSS : [1.36831]    ACC : [0.34185]    ROC : [0.35702]
+				VALID LOSS : [0.69284]    ACC : [0.51282]    ROC : [0.47368]
+				Validation loss decreased (inf --> 0.692844).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [1.03618]    ACC : [0.51118]    ROC : [0.55047]
+				VALID LOSS : [0.75952]    ACC : [0.51282]    ROC : [0.50000]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 2	TRAIN LOSS : [0.79726]    ACC : [0.51438]    ROC : [0.66554]
+				VALID LOSS : [0.69704]    ACC : [0.51282]    ROC : [0.50000]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 3	TRAIN LOSS : [0.89180]    ACC : [0.74441]    ROC : [0.78048]
+				VALID LOSS : [1.54528]    ACC : [0.51282]    ROC : [0.50000]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 4	TRAIN LOSS : [0.76281]    ACC : [0.55911]    ROC : [0.57670]
+				VALID LOSS : [2.33506]    ACC : [0.51282]    ROC : [0.82237]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 5	TRAIN LOSS : [0.81283]    ACC : [0.62939]    ROC : [0.70284]
+				VALID LOSS : [2.93158]    ACC : [0.51282]    ROC : [0.50000]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 6	TRAIN LOSS : [0.54403]    ACC : [0.73482]    ROC : [0.79736]
+				VALID LOSS : [3.75772]    ACC : [0.51282]    ROC : [0.50000]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 7	TRAIN LOSS : [0.56091]    ACC : [0.74121]    ROC : [0.76410]
+				VALID LOSS : [4.04423]    ACC : [0.51282]    ROC : [0.50000]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 8	TRAIN LOSS : [0.49869]    ACC : [0.78275]    ROC : [0.82874]
+				VALID LOSS : [3.40187]    ACC : [0.51282]    ROC : [0.17763]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 9	TRAIN LOSS : [0.54738]    ACC : [0.76358]    ROC : [0.80275]
+				VALID LOSS : [2.04212]    ACC : [0.48718]    ROC : [0.08421]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 10	TRAIN LOSS : [0.47922]    ACC : [0.77955]    ROC : [0.82282]
+				VALID LOSS : [2.16657]    ACC : [0.51282]    ROC : [0.08289]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [10]==
+
+MODEL : EfficientNetb0_pretrained
+	EPOCH : 0	TRAIN LOSS : [0.65337]    ACC : [0.55272]    ROC : [0.54736]
+				VALID LOSS : [0.69533]    ACC : [0.51282]    ROC : [0.08421]
+				Validation loss decreased (inf --> 0.695327).  Saving model ...
+	EPOCH : 1	TRAIN LOSS : [0.57044]    ACC : [0.77316]    ROC : [0.84215]
+				VALID LOSS : [0.69586]    ACC : [0.46154]    ROC : [0.08421]
+				EarlyStopping counter: 1 out of 10
+
+	EPOCH : 2	TRAIN LOSS : [0.42466]    ACC : [0.81470]    ROC : [0.87606]
+				VALID LOSS : [0.69637]    ACC : [0.51282]    ROC : [0.08684]
+				EarlyStopping counter: 2 out of 10
+
+	EPOCH : 3	TRAIN LOSS : [0.41858]    ACC : [0.83706]    ROC : [0.90712]
+				VALID LOSS : [0.71383]    ACC : [0.51282]    ROC : [0.08947]
+				EarlyStopping counter: 3 out of 10
+
+	EPOCH : 4	TRAIN LOSS : [0.37420]    ACC : [0.85942]    ROC : [0.92743]
+				VALID LOSS : [0.70990]    ACC : [0.51282]    ROC : [0.09211]
+				EarlyStopping counter: 4 out of 10
+
+	EPOCH : 5	TRAIN LOSS : [0.33378]    ACC : [0.87859]    ROC : [0.92906]
+				VALID LOSS : [0.69846]    ACC : [0.51282]    ROC : [0.30526]
+				EarlyStopping counter: 5 out of 10
+
+	EPOCH : 6	TRAIN LOSS : [0.33842]    ACC : [0.87540]    ROC : [0.93033]
+				VALID LOSS : [0.71290]    ACC : [0.51282]    ROC : [0.23158]
+				EarlyStopping counter: 6 out of 10
+
+	EPOCH : 7	TRAIN LOSS : [0.36506]    ACC : [0.88818]    ROC : [0.93879]
+				VALID LOSS : [0.76209]    ACC : [0.51282]    ROC : [0.13947]
+				EarlyStopping counter: 7 out of 10
+
+	EPOCH : 8	TRAIN LOSS : [0.36760]    ACC : [0.86262]    ROC : [0.94271]
+				VALID LOSS : [0.76546]    ACC : [0.51282]    ROC : [0.14737]
+				EarlyStopping counter: 8 out of 10
+
+	EPOCH : 9	TRAIN LOSS : [0.32872]    ACC : [0.88179]    ROC : [0.95125]
+				VALID LOSS : [0.71210]    ACC : [0.51282]    ROC : [0.14211]
+				EarlyStopping counter: 9 out of 10
+
+	EPOCH : 10	TRAIN LOSS : [0.27557]    ACC : [0.89776]    ROC : [0.95746]
+				VALID LOSS : [0.71542]    ACC : [0.51282]    ROC : [0.10789]
+				EarlyStopping counter: 10 out of 10
+
+		==Early Stopped at EPOCH : [10]==
+
+Model Training Finished at 2022-06-29 15-38-06

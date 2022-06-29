@@ -1,0 +1,13 @@
+80% of ASD Files (152 files) copy into "training/train"
+10% of ASD Files (19 files) copy into "training/valid"
+10% of ASD Files (19 files) copy into "training/test"
+
+
+80% of ADHD Files (161 files) copy into "training/train"
+10% of ADHD Files (20 files) copy into "training/valid"
+10% of ADHD Files (20 files) copy into "training/test"
+
+
+"Training/train" Directory has 313 images with ASD 152 and ADHD 161
+"Training/valid" Directory has 39 images with ASD 19 and ADHD 20
+"Training/test " Directory has 41 images with ASD 20 and ADHD 21
